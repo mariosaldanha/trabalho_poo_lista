@@ -48,6 +48,6 @@ Nodo<P> * Pilha<P>::Pop(){
 
 template <class P>
 Pilha<P>::~Pilha(){
-	delete(this->fim);
+	Lista<P>::~Lista();
 }
 
